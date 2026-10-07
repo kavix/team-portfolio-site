@@ -12,7 +12,121 @@
   <!-- MEMBER 4: HEADER goes here -->
 
   <main>
-    <!-- MEMBER 1: PAGE CONTENT (sections) goes here -->
+    <section id="home" class="hero" aria-labelledby="hero-title">
+      <div class="hero-content">
+        <p class="eyebrow">Full-Stack Lab 03</p>
+        <h1 id="hero-title">We build useful things for the web.</h1>
+        <p class="hero-intro">
+          We are a collaborative team of developers who turn thoughtful ideas into accessible,
+          responsive, and reliable digital experiences.
+        </p>
+        <p class="hero-role">
+          Our current focus:
+          <span class="typed-text" data-roles="Frontend development,Backend engineering,Product design">Frontend development</span>
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#team">Meet the team</a>
+          <a class="button button-secondary" href="#contact">Start a conversation</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="content-section" aria-labelledby="about-title">
+      <div class="section-heading">
+        <p class="eyebrow">About us</p>
+        <h2 id="about-title">Different strengths, one shared standard.</h2>
+      </div>
+      <div class="about-content">
+        <p>
+          We combine creative problem-solving with practical engineering. Every project is an
+          opportunity to learn, communicate clearly, and make something people enjoy using.
+        </p>
+        <ul class="team-values">
+          <li><strong>Curious</strong><span>We ask better questions before we write code.</span></li>
+          <li><strong>Considered</strong><span>We care about details, performance, and accessibility.</span></li>
+          <li><strong>Collaborative</strong><span>We share ideas early and build better work together.</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="team" class="content-section" aria-labelledby="team-title">
+      <div class="section-heading">
+        <p class="eyebrow">Our team</p>
+        <h2 id="team-title">The people behind the work.</h2>
+      </div>
+      <div class="team-grid">
+        <article class="team-member">
+          <p class="member-number">01</p>
+          <h3>Alex Morgan</h3>
+          <p class="member-role">Frontend developer</p>
+          <p>Creates polished, responsive interfaces with a sharp eye for interaction details.</p>
+        </article>
+        <article class="team-member">
+          <p class="member-number">02</p>
+          <h3>Samira Patel</h3>
+          <p class="member-role">Backend developer</p>
+          <p>Builds dependable services and clear data systems that keep products moving.</p>
+        </article>
+        <article class="team-member">
+          <p class="member-number">03</p>
+          <h3>Jordan Lee</h3>
+          <p class="member-role">UX designer</p>
+          <p>Turns complex requirements into simple, inclusive experiences for real people.</p>
+        </article>
+        <article class="team-member">
+          <p class="member-number">04</p>
+          <h3>Indunil M.K.M.</h3>
+          <p class="member-role">EC/2022/042 | Male</p>
+          <p>GitHub: <a href="https://github.com/KODEGAS/Aadhya">Aadhya</a></p>
+          <p>A Post-Quantum Secure Cloud-Native Healthcare Platform.</p>
+          <p>Username: maleesha101</p>
+        </article>
+        <article class="team-member">
+          <p class="member-number">05</p>
+          <h3>Galkotuwa K.S.B.</h3>
+          <p class="member-role">EC/2022/053</p>
+          <p>Username: kavix</p>
+        </article>
+        <article class="team-member">
+          <p class="member-number">06</p>
+          <h3>Chandunu P.L.T.</h3>
+          <p class="member-role">EC/2022/058</p>
+        </article>
+        <article class="team-member">
+          <p class="member-number">07</p>
+          <h3>Sadeepa T.G.R.</h3>
+          <p class="member-role">EC/2022/067</p>
+          <p>Username: tgrsadeepa</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="content-section contact-section" aria-labelledby="contact-title">
+      <div class="section-heading">
+        <p class="eyebrow">Get in touch</p>
+        <h2 id="contact-title">Have a project in mind?</h2>
+        <p>Tell us a little about it. We would love to hear what you are working on.</p>
+      </div>
+      <form class="contact-form" novalidate>
+        <div class="form-field">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" autocomplete="name" required minlength="2">
+          <small id="name-error" class="field-error" aria-live="polite"></small>
+        </div>
+        <div class="form-field">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" required>
+          <small id="email-error" class="field-error" aria-live="polite"></small>
+        </div>
+        <div class="form-field form-field-wide">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required minlength="10"></textarea>
+          <small id="message-error" class="field-error" aria-live="polite"></small>
+        </div>
+        <button class="button button-primary" type="submit">Send message</button>
+        <p class="form-feedback" aria-live="polite"></p>
+      </form>
+    </section>
   </main>
 
   <!-- MEMBER 4: FOOTER goes here -->
