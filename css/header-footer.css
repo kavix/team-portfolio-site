@@ -1,1 +1,13 @@
-/* MEMBER 4: header, navigation and footer styles */
+/*
+CSS implementation brief:
+Style the TeamCode header and footer from index.html as a clean, responsive shell.
+Make .site-header a compact flex layout with a clear TeamCode logo, horizontal
+.primary-navigation links, visible hover/focus states, and an accessible .theme-toggle.
+Use the .menu-toggle control at mobile widths and show or hide .primary-navigation.is-open
+without causing layout overflow. Keep navigation links readable in both light mode and
+[data-theme="dark"] mode, and preserve a strong active state for aria-current="location".
+Place .site-footer at the end of the page with a dark navy background, centered metadata,
+comfortable spacing, and a visible Back to top link. Add responsive breakpoints for
+small screens, ensure controls have stable touch-friendly sizes, and respect
+prefers-reduced-motion for hover and menu transitions.
+*/

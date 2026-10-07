@@ -1,1 +1,14 @@
-/* MEMBER 2: global styles, layout, colours, dark mode */
+/*
+CSS implementation brief:
+Create a polished, responsive TeamCode portfolio using the HTML in index.html.
+Use a purple accent with a light lavender hero/background and a dark navy footer.
+Style the header as a compact horizontal navigation bar with a mobile menu state;
+style the hero with a centered headline and primary CTA; and make About the Project
+cards and the four team-member cards clean, equal-height, lightly bordered panels.
+Use a readable non-default font stack, generous whitespace, accessible contrast,
+responsive grids, visible keyboard focus states, and mobile-first breakpoints.
+Support the JavaScript dark-mode state with [data-theme="dark"] overrides for the
+page background, text, cards, navigation, form controls, and footer. Keep the typed
+text, buttons, form feedback, validation errors, and aria-current navigation state
+visually clear. Add subtle hover and focus transitions without disabling reduced motion.
+*/
