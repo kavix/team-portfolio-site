@@ -198,18 +198,27 @@ h3 {
   margin: 0;
 }
 
+/* Project cards + Team members */
 .team-values,
 .project-grid,
-.team-grid {
+.team-members {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 8px;
   padding: 0;
   margin: 0;
 }
 
+.project-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.team-members {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
 .team-values {
   list-style: none;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .team-values li,
@@ -247,10 +256,6 @@ h3 {
   font-size: 7px;
 }
 
-.team-grid {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-}
-
 #team {
   background: var(--lavender);
 }
@@ -278,6 +283,7 @@ h3 {
   font-size: 7px;
 }
 
+/* Contact */
 .contact-section {
   display: grid;
   grid-template-columns: 1fr;
@@ -342,6 +348,7 @@ textarea {
   font-size: 7px;
 }
 
+/* Responsive */
 @media (max-width: 520px) {
   .hero {
     min-height: 168px;
@@ -357,7 +364,7 @@ textarea {
     grid-template-columns: 1fr;
   }
 
-  .team-grid {
+  .team-members {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
